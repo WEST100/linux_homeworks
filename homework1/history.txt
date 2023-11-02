@@ -1,0 +1,10 @@
+   0 mkdir -p /opt/test/denys
+   1 cd /opt/test/denys
+   2 touch file.txt
+   3 ls
+   4 cd
+   5 cp /opt/test/denys/file.txt /tmp/file2.txt
+   6 rm /opt/test/denys/file.txt
+   7 cd /tmp
+   8 ls
+   9 history > history.txt
