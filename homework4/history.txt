@@ -1,0 +1,8 @@
+   0 touch 1.sh
+   1 chmod u+x 1.sh
+   2 export USER=denys
+   3 mv 1.sh /bin/denys
+   4 cd /bin
+   5 nano denys
+   6 ./denys
+   7 history > history.txt
