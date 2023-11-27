@@ -1,0 +1,11 @@
+   0 touch 1.sh
+   1 chmod u+x 1.sh
+   2 export USER=denys
+   3 mv 1.sh /bin/denys
+   4 cd /bin
+   5 nano denys
+            #!/bin/bash
+
+            echo "hello $USER"
+            whereis denys
+   6 ./denys
