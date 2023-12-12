@@ -1,0 +1,16 @@
+cd /opt/171023_morning/denis
+nano script.sh
+
+#!/bin/bash
+
+set -e
+        for i in {1..10}
+        do
+        touch $i$(date +"%d.%m.%y")
+        done
+
+//ctrl+x
+
+chmod u+x script.sh
+crontab -e
+* /15 * * * * /opt/171023_morning/denis/script.sh
